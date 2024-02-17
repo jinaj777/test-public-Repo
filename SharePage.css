@@ -1,0 +1,220 @@
+.share-page {
+	display: flex;
+	flex-direction: column;
+	padding: 0 4px 0 20px;
+	height: 100%;
+  }
+  
+  .a11y-container {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 100px 0;
+	font-family: "Malgun Gothic";
+  }
+  
+  .a11y-container figure img {
+	max-width: 100%;
+  }
+  
+  .a11y-container p {
+	margin: 0;
+  }
+  
+  .a11y-container header {
+	border-bottom: 1px solid #d1d5db;
+  }
+  
+  .a11y-container footer {
+	border-top: 1px solid #d1d5db;
+  }
+  
+  .a11y-container figure {
+	margin: 48px 0;
+  }
+  
+  .a11y-container figcaption {
+	margin-top: 40px;
+  }
+  
+  .a11y-container .logo-a11y {
+	width: 142px;
+	height: auto;
+	margin: 0 0 24px;
+	object-fit: contain;
+	line-height: 1;
+  }
+  
+  .a11y-container .logo-a11y a {
+	margin: 0;
+	font-size: 1rem;
+	line-height: 1;
+  }
+  
+  .a11y-container .logo-a11y img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+  }
+  
+  .a11y-container .ico {
+	flex: 0 0 auto;
+	display: inline-block;
+	background-repeat: no-repeat;
+  }
+  
+  .a11y-container .ico-notify {
+	width: 18px;
+	height: 18px;
+	background-color: #4b5563;
+	background-image: url(./images/ico-notify@2x.png);
+	background-size: 18px auto;
+	border-radius: 50%;
+  }
+  
+  .a11y-container .logo-a11y-sm {
+	flex: 0 0 auto;
+	width: 67px;
+	height: 16px;
+	background-image: url(./images/logo-a11y-sm@2x.png);
+  }
+  
+  .a11y-container .ico-link {
+	width: 12px;
+	height: 12px;
+	background-image: url(./images/ico-link-sm-white@2x.png);
+	background-size: 12px auto;
+  }
+  
+  .a11y-container .a11y-producer {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.1375rem;
+	letter-spacing: -0.14px;
+	color: #1f2937;
+  }
+  
+  .a11y-container .a11y-title {
+	margin: 0 0 8px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 3.75rem;
+	letter-spacing: -0.8px;
+	color: #1f2937;
+  }
+  
+  .a11y-container .a11y-info {
+	display: flex;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.1375rem;
+	letter-spacing: -0.14px;
+	color: #4b5563;
+  }
+  
+  .a11y-container .a11y-info .a11y-text {
+	flex: 1 1 auto;
+	padding-top: 1px;
+  }
+  
+  .a11y-container .a11y-info .a11y-user {
+	font-weight: 500;
+	color: #1f2937;
+  }
+  
+  .a11y-container .a11y-profile-thumb {
+	flex: 0 0 auto;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+	background-image: url(./images/ico-profile-sm@2x.png);
+	background-size: 20px auto;
+  }
+  
+  .a11y-container .a11y-profile-thumb img {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .a11y-container .a11y-count {
+	margin-left: 3px;
+	font-weight: 500;
+	color: #0658f5;
+  }
+  
+  .a11y-container .box {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin: 24px 0;
+	padding: 20px;
+	gap: 8px;
+	background: #f3f4f6;
+	border: 1px solid #d1d5db;
+	border-radius: 12px;
+	box-sizing: border-box;
+  }
+  
+  .a11y-container .box.box-flex {
+	justify-content: space-between;
+  }
+  
+  .a11y-container .a11y-link {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.4rem;
+	letter-spacing: -0.24px;
+	text-decoration-line: underline;
+	text-underline-position: under;
+  }
+  
+  .a11y-container .btn-a11y {
+	flex: 0 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	height: 36px;
+	padding: 0px 13px 0px 12px;
+	background: #1364ff;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.1375rem;
+	letter-spacing: -0.14px;
+	color: #fff;
+	text-decoration-line: none;
+  }
+  
+
+/* // 임시 코드 */
+.a11y-container .a11y-sr-only p {
+	margin: 0.5rem 0;
+}
+
+.a11y-container .a11y-sr-only h1,
+.a11y-container .a11y-sr-only h2,
+.a11y-container .a11y-sr-only h3,
+.a11y-container .a11y-sr-only h4,
+.a11y-container .a11y-sr-only h5,
+.a11y-container .a11y-sr-only h6 {
+	margin: 0.5rem 0;
+}
+
+.a11y-container .a11y-sr-only ul,
+.a11y-container .a11y-sr-only ol {
+	margin: 1rem 0;
+}
+
+.a11y-container .a11y-sr-only ul li,
+.a11y-container .a11y-sr-only ol li {
+	margin: 0.5rem 0;
+}
+
+.a11y-container .a11y-sr-only table {
+	margin: 2rem 0;
+}
